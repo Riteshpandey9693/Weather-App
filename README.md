@@ -1,92 +1,130 @@
 # 🌦️ Weather App
 
-A modern and responsive Weather App built with **React**, **Vite**, and **Material-UI**, delivering real-time weather updates for any city worldwide. Type a city name or use your current location to instantly check the temperature, weather conditions, wind speed, and more.
+A sleek and responsive **Weather App** built using **React**, **Vite**, and **Material-UI**, offering real-time weather updates from cities around the globe. Simply enter a city name or allow location access to get instant weather reports.
 
-🔗 **Live Demo:** [weather-app-96.netlify.app](https://weather-app-96.netlify.app)
+🔗 **Live Demo:** [https://weather-app-96.netlify.app](https://weather-app-96.netlify.app)
 
 ---
 
 ## ✨ Features
 
-- 🔍 Search weather by city name
-- 📍 Get weather using live geolocation
-- 🌡️ View temperature, weather condition, humidity, and wind speed
-- 🧭 Dynamic icons and real-time API data
-- 📱 Fully responsive and mobile-friendly layout
-- ⚡ Built with Vite for super-fast development experience
+- 🔍 Search for weather by city name
+- 📍 Get live weather using geolocation
+- 🌡️ Display temperature, humidity, wind speed, and conditions
+- 🧭 Dynamic weather icons and real-time updates via API
+- 📱 Fully responsive UI for all device sizes
+- ⚡ Powered by **Vite** for blazing-fast performance
 
 ---
 
 ## 🧰 Tech Stack
 
-- **React** – Component-based frontend development
-- **Vite** – Lightning-fast development server and bundler
-- **Material-UI (MUI)** – Modern and responsive UI components
-- **HTML5 & CSS3** – Markup and styling
-- **JavaScript (ES6+)** – Logic and functionality
+- **React** – Declarative UI with component-based architecture
+- **Vite** – Lightweight and lightning-fast build tool
+- **Material-UI (MUI)** – Pre-built, responsive UI components
+- **HTML5 & CSS3** – Semantic structure and custom styles
+- **JavaScript (ES6+)** – Dynamic logic and interactivity
 
 ---
 
-## 🔧 Getting Started
+## 🛠️ Getting Started
 
-Follow the steps below to run the project locally:
-
-### 1. Clone the repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Riteshpandey9693/Weather-App
-
-2. Navigate to the project directory
 cd Weather-App
+````
 
-3. Install dependencies
+### 2. Install Dependencies
+
+```bash
 npm install
+```
 
-4. Start the development server
-npm run dev
+### 3. Set Up Environment Variables
 
+Create a `.env` file in the root directory and add your API keys:
 
-🌐 API Integration
-This application uses the OpenWeatherMap API for fetching real-time weather data and the Geolocation API to fetch live weather based on your current location.
-
-API Keys Required
-Create a .env file in the root of your project and add the following keys:
-
+```env
 VITE_WEATHER_API_KEY=your_openweather_api_key
 VITE_GEOLOCATION_API_KEY=your_geolocation_api_key
+```
 
-Make sure to keep your API keys secure and avoid exposing them publicly.
+> ⚠️ Make sure to **never expose your API keys publicly**.
 
+### 4. Start the Development Server
 
-📁 Project Structure
+```bash
+npm run dev
+```
+
+The app will run locally on: `http://localhost:5173/`
+
+---
+
+## 🌐 API Integration
+
+* **Weather Data:** Powered by [OpenWeatherMap API](https://openweathermap.org/)
+* **Geolocation:** Uses the browser's native [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)
+
+---
+
+## 📁 Project Structure
+
+```
 weather-app/
 ├── public/
-│ └── index.html
+│   └── index.html
 ├── src/
-│ ├── assets/
-│ ├── components/
-│ │ └── WeatherCard.jsx
-│ ├── styles/
-│ │ └── App.css
-│ ├── App.jsx
-│ ├── main.jsx
+│   ├── assets/
+│   ├── components/
+│   │   └── WeatherCard.jsx
+│   ├── styles/
+│   │   └── App.css
+│   ├── App.jsx
+│   ├── main.jsx
 ├── .env
 ├── package.json
 └── vite.config.js
+```
 
+---
 
-🤝 Contribution
+## 🤝 Contributing
+
 Contributions are welcome!
-If you'd like to improve something, feel free to fork the repository, make changes, and submit a pull request.
+To contribute:
 
+1. Fork the repo
+2. Create a new branch (`git checkout -b feature-name`)
+3. Commit your changes
+4. Push to the branch (`git push origin feature-name`)
+5. Submit a pull request
 
-📄 License
-This project is licensed under the MIT License.
+---
 
+## 📄 License
 
-🙏 Acknowledgements
-🌍 Weather data from OpenWeatherMap
-💄 UI Components from Material-UI
-🔧 Icons from React Icons
+This project is licensed under the **MIT License**.
+Feel free to use, share, or modify it with attribution.
 
-Made with ❤️ by Ritesh Kumar Pandey
+---
+
+## 🙏 Acknowledgements
+
+* 🌍 **OpenWeatherMap** – for real-time weather data
+* 💄 **Material-UI** – for pre-built UI components
+* 🔧 **React Icons** – for weather and utility icons
+
+---
+
+## 👨‍💻 Author
+
+**Ritesh Kumar Pandey**
+📧 Email: [pandeyritesh9693@gmail.com](mailto:pandeyritesh9693@gmail.com)
+🔗 LinkedIn: [riteshkumarpandey9693](https://www.linkedin.com/in/riteshkumarpandey9693/)
+
+---
+
+**Made with ❤️ using React, Vite & MUI**
